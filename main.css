@@ -21,7 +21,7 @@ body {
     background: var(--background-color);
     color: var(--primary-color);
     font-family: IBMPlexMono;
-    font-size: 24px;
+    font-size: 22px;
     margin-top: 48px;
     margin-bottom: 36px;
 }
@@ -37,6 +37,10 @@ h1 {
     color: var(--primary-color);
     font-size: 48px;
     margin-bottom: 48px;
+}
+
+h2 {
+    font-size: 32px;
 }
 
 p {
@@ -88,15 +92,20 @@ a:active {
     text-underline-offset: 2px;
 } 
 
-footer {
-    padding: 20px;
-    position: relative;
+.publications li {
+    padding: 0.5rem 0;
+    line-height: 1.4;
 }
 
 .line {
     height: 0.5px;
     background-color: var(--primary-color);
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+footer {
+    padding: 20px;
+    position: relative;
 }
 
 .footer-content {
@@ -113,9 +122,4 @@ footer {
 
 small {
     font-size: 20px;
-}
-
-.publications li {
-    padding: 0.5rem 0;
-    line-height: 1.4;
 }
